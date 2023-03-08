@@ -1,0 +1,76 @@
+.App {
+  height: 3000px;
+}
+
+header {
+  width: 100%;
+  background-color: rgb(127, 189, 224);
+  border-bottom: 1px solid rgb(160, 156, 156);
+  position: fixed;
+  top:0;
+  z-index: 9;
+}
+a {
+  text-decoration: none;
+}
+header > .inner {
+  height: 130px;
+  width: 1100px;
+  margin: 0 auto;
+  position: relative;
+}
+header > .inner > .name > .company {
+  font-family: 'Song Myung', serif;
+  font-size: 35px;
+}
+header > .inner > .name > .type {
+  font-family: 'Song Myung', serif;
+  font-size: 25px;
+}
+header .logo {
+  position: absolute;
+  top: 15px;
+  left: -20px;
+  height: 60%;
+  /* margin: auto; */
+}
+header .nav {
+  position: absolute;
+  top: 75px;
+  right: 0;
+  display: flex;
+}
+header .nav ul.menu {
+  font-family: 'Song Myung', serif;
+  font-size: 20px;
+  margin: 10px;
+  display: flex;
+}
+header .nav ul.meun li {
+  position: relative;
+}
+header .nav ul.meun li::before {
+  content: "";
+  height: 20px;
+  width: 1px;
+  background-color: #fff;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+header .nav ul.meun li:first-child::before {
+  display: none;
+}
+header .nav ul.meun li a {
+  padding: 11px 16px;
+  display: block;
+  color: #fff;
+}
+
+/* footer */
+footer {
+  background-color: rgb(127,189,224);
+  border-top: 1px solid rgb(160, 156, 156);
+  position: static;
+}
