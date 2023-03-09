@@ -4,7 +4,7 @@
 
 header {
   width: 100%;
-  background-color: rgb(127, 189, 224);
+  background-color: rgb(143, 199, 231);
   border-bottom: 1px solid rgb(160, 156, 156);
   position: fixed;
   top:0;
@@ -14,7 +14,7 @@ a {
   text-decoration: none;
 }
 header > .inner {
-  height: 130px;
+  height: 140px;
   width: 1100px;
   margin: 0 auto;
   position: relative;
@@ -31,10 +31,13 @@ header .logo {
   position: absolute;
   top: 15px;
   left: -20px;
-  height: 60%;
   /* margin: auto; */
 }
-header .nav {
+header > .inner > .logo img {
+  padding-top: 10px;
+  height: 120px;
+}
+header > .inner > .nav {
   position: absolute;
   top: 75px;
   right: 0;
@@ -43,13 +46,14 @@ header .nav {
 header .nav ul.menu {
   font-family: 'Song Myung', serif;
   font-size: 20px;
-  margin: 10px;
+  margin: 5px;
   display: flex;
+  
 }
-header .nav ul.meun li {
+header .nav ul.menu li {
   position: relative;
 }
-header .nav ul.meun li::before {
+header .nav ul.menu li::before {
   content: "";
   height: 20px;
   width: 1px;
@@ -59,18 +63,128 @@ header .nav ul.meun li::before {
   bottom: 0;
   margin: auto;
 }
-header .nav ul.meun li:first-child::before {
-  display: none;
+header .nav ul.menu {
+  list-style: none;
 }
-header .nav ul.meun li a {
+header > .inner >.nav ul.menu li a {
+  font-size: 20px;
   padding: 11px 16px;
   display: block;
   color: #fff;
 }
+header > .inner >.nav ul.menu li a:hover {
+  color: rgb(80, 78, 78);
+}
 
+/* MMMain */
+/* about */
+.main {
+  /* position: relative; */
+  width: 100%;
+  height: 1000px;
+  margin-top: 140px;
+}
+.main > .about {
+  position: relative;
+}
+.main > .about > .mtitle {
+  position: relative;
+  padding-left: 150px;
+  padding-top: 50px;
+  font-size: 25px;
+  font-weight: light;
+  margin: 0;
+}
+.main > .about > .pic{
+  position: absolute;
+  width: 40%;
+  height: 300px;
+  left: 70px;
+}
+.main > .about >.pic img {
+  width: 400px;
+  height: 250px;
+}
+.main > .about >.des {
+  position: absolute;
+  width: 50%;
+  height: 300px;
+  right: 0;
+}
+.main > .product {
+  position: relative;
+  top: 400px;
+}
+.main > .product > .mtitle {
+  position: relative;
+  padding-left: 150px;
+  padding-top: 50px;
+  font-size: 25px;
+  font-weight: light;
+  margin: 0;
+}
+.main > .product > .small {
+  position: absolute;
+  width: 40%;
+  height: 200px;
+  left: 70px;
+}
+.main > .product > .small > .pname {
+  position: absolute;
+  width: 100%;
+  height: 20%;
+  font-size: 20px;
+  padding-top: 20px;
+  padding-left: 100px;
+  margin: 0;
+}
+.main > .product > .small > .ppic {
+  position: absolute;
+  top: 20%;
+  width: 100%;
+  height: 70%;
+  margin-top: 10px;
+  margin-left: 90px;
+}
+.main > .product > .small > .ppic img {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+}
+.main > .product >.big {
+  position: absolute;
+  width: 50%;
+  height: 200px;
+  right: 0;
+}
+.main > .product >.big > .pdes {
+  position: absolute;
+  width: 100%;
+  height: 30%;
+  font-size: 15px;
+  top: 20%;
+}
+.main > .product >.big > .pchart {
+  position: absolute;
+  width: 100%;
+  height: 60%;
+  top: 50%;
+}
+.main > .email {
+  position: relative;
+  top: 1600px;
+}
+.main > .email > .mtitle {
+  position: relative;
+  padding-left: 150px;
+  padding-top: 50px;
+  font-size: 25px;
+  font-weight: light;
+  margin: 0;
+}
 /* footer */
 footer {
   background-color: rgb(127,189,224);
   border-top: 1px solid rgb(160, 156, 156);
-  position: static;
+  margin-top: 1840px;
 }
