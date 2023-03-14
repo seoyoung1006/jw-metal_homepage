@@ -120,8 +120,9 @@ header >.inner > .nav  */
   width: 600px;
   height: 300px;
   left: 50%;
-  margin-top: 20px;
-  font-size: 20px;
+  margin-top: 17px;
+  font-size: 22px;
+  font-family: 'Song Myung', serif;
 }
 .main > .product {
   position: relative;
@@ -152,6 +153,7 @@ header >.inner > .nav  */
   padding-top: 20px;
   padding-left: 100px;
   margin: 0;
+  font-family: 'Lobster', cursive;
 }
 .main > .product > .small1 > .ppic {
   position: absolute;
@@ -178,6 +180,7 @@ header >.inner > .nav  */
   height: 300px;
   font-size: 18px;
   top: 130px;
+  font-family: 'Dosis', sans-serif;
   /* right: 20px; */
 }
 /* produvt2 */
@@ -196,6 +199,7 @@ header >.inner > .nav  */
   padding-top: 20px;
   padding-left: 100px;
   margin: 0;
+  font-family: 'Lobster', cursive;
 }
 .main > .product > .small2 > .ppic {
   position: absolute;
@@ -206,7 +210,7 @@ header >.inner > .nav  */
 }
 .main > .product > .small2 > .ppic img {
   position: absolute;
-  width: 400px;
+  width: 500px;
   height: 300px;
   left: 10%;
 }
@@ -223,6 +227,7 @@ header >.inner > .nav  */
   height: 300px;
   font-size: 18px;
   top: 130px;
+  font-family: 'Dosis', sans-serif;
   /* right: 20px; */
 }
 /* product3 */
@@ -241,6 +246,7 @@ header >.inner > .nav  */
   padding-top: 20px;
   padding-left: 100px;
   margin: 0;
+  font-family: 'Lobster', cursive;
 }
 .main > .product > .small3 > .ppic {
   position: absolute;
@@ -268,6 +274,7 @@ header >.inner > .nav  */
   height: 300px;
   font-size: 18px;
   top: 130px;
+  font-family: 'Dosis', sans-serif;
 }
 /* product4 */
 .main > .product > .small4 {
@@ -285,6 +292,7 @@ header >.inner > .nav  */
   padding-top: 20px;
   padding-left: 100px;
   margin: 0;
+  font-family: 'Lobster', cursive;
 }
 .main > .product > .small4 > .ppic {
   position: absolute;
@@ -312,6 +320,7 @@ header >.inner > .nav  */
   height: 300px;
   font-size: 18px;
   top: 130px;
+  font-family: 'Dosis', sans-serif;
 }
 /* product5 */
 .main > .product > .small5 {
@@ -329,6 +338,7 @@ header >.inner > .nav  */
   padding-top: 20px;
   padding-left: 100px;
   margin: 0;
+  font-family: 'Lobster', cursive;
 }
 .main > .product > .small5 > .ppic {
   position: absolute;
@@ -339,8 +349,8 @@ header >.inner > .nav  */
 }
 .main > .product > .small5 > .ppic img {
   position: absolute;
-  width: 400px;
-  height: 300px;
+  width: 500px;
+  height: 400px;
   left: 10%;
 }
 .main > .product >.big5 {
@@ -348,7 +358,7 @@ header >.inner > .nav  */
   width: 600px;
   height: 300px;
   right: 15%;
-  top: 1580px;
+  top: 1540px;
 }
 .main > .product >.big5 > .pdes {
   position: absolute;
@@ -356,6 +366,7 @@ header >.inner > .nav  */
   height: 300px;
   font-size: 18px;
   top: 130px;
+  font-family: 'Dosis', sans-serif;
 }
 
 .main > .email {
@@ -376,7 +387,7 @@ header >.inner > .nav  */
 .main > .email> .container {
   position: relative;
   background-color: #ece5e5;
-  height: 200px;
+  height: 170px;
   width: 400px;
   left: 40%;
   top: 20px;

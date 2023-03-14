@@ -43,5 +43,46 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <script>
+      const toTopEl = document.querySelector('#to-top');
+      window.addEventListener('scroll', _,throttle(function() {
+        console.log(window.scrollY);
+        if (window.scrollY > 400) {
+          gsap.to(toTopEl, .2, {
+            x:0
+          });
+        } else {
+          gsap.to(toTopEl, .2, {
+            x:100
+          });
+        }
+      },300));
+
+      toTopEl.addEventListener('click', function() {
+        gsap.to(window, .7, {
+          scrollTo: 0
+        });
+      })
+
+      const aboutEl = document.querySelector('#about');
+      const proEl = document.querySelector('#product');
+      const emailEl = document.querySelector('#emailtous');
+
+      aboutEl.addEventListener('click', function() {
+        gsap.to(window,.7, {
+          scrollTo: 0
+        });
+      })
+      proEl.addEventListener('click', function() {
+        gsap.to(window,.7, {
+          scrollTo: 360
+        });
+      })
+      emailEl.addEventListener('click', function() {
+        gsap.to(window,.7, {
+          scrollTo: 2200
+        });
+      })
+    </script>
   </body>
 </html>

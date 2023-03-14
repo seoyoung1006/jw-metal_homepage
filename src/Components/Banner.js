@@ -17,10 +17,10 @@ class Banner extends Component {
           <div class="nav">
               <ul class="menu">
                   <li>
-                    <a href="/">About Us</a>
+                    <a href="/" id="about">About Us</a>
                   </li>
                   <li class="pro">
-                    <a href="/">Product</a>
+                    <a href="/" id="product">Product</a>
                   </li>
                   <div class="product_contents">
                       {/* <ul>
@@ -32,7 +32,7 @@ class Banner extends Component {
                       </ul> */}
                   </div>
                   <li>
-                    <a href="/">Email to Us</a>
+                    <a href="/" id="emailtous">Email to Us</a>
                   </li>
               </ul>
           </div>
